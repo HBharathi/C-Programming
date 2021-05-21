@@ -1,0 +1,34 @@
+/*
+Author : Bharathi H
+Purpose :Example for converting minutes into years and days
+*/
+
+#include<stdio.h>
+int main ( )
+{
+  int min = 0;
+  double min_in_year = 0.0;
+  double years = 0.0;
+  double days = 0.0;
+  
+  printf("enter the minutes = ");
+  scanf("%d",&min);    //getting an input from user
+  printf("minutes entered = %d\n",min);
+  
+  min_in_year = (60 * 24 * 365);
+  
+  
+  years = (min / min_in_year);
+  printf("equivalent year =%lf\n",years);
+  
+  days = (min / 60) / 24;
+  printf("equivalent days =%lf\n",days);
+  
+   
+  return 0;
+}
+
+
+
+"VMM_SVC_URL": "http://vmm-cfg-svc.juniper.net",
+ 
