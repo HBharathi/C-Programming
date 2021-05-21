@@ -1,0 +1,25 @@
+/*
+Author : Bharathi H
+Purpose :Example for if statement usage
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    int score = 95;
+    int big = 80;
+    
+    if(score > big) /*simple statements*/
+    printf("you won jackpot\n");
+    
+    if(score > big) /*compound statements*/
+    {
+        score++;
+        printf("great!!");
+    }
+
+    return 0;
+
+   
+}
