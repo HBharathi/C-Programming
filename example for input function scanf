@@ -1,0 +1,19 @@
+/*
+Author : Bharathi H
+Purpose :example for input function i.e scanf
+*/
+
+#include<stdio.h>
+int main()
+{
+    char str[25];  //Declaring a variable
+    int i;
+    double x;
+    int j = 10; //Initializing a variable 
+	
+    printf("enter a value :"); 
+    scanf("%d %s %lf",&i,str,&x);
+    printf("Value is = %d::%s::%lf\n",i,str,x);
+    
+    return 0;
+}
