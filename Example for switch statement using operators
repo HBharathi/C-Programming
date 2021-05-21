@@ -1,0 +1,45 @@
+/*
+Author : Bharathi H
+Purpose :Example for switch statement using operators
+*/
+
+
+#include <stdio.h>
+
+int main()
+{
+   
+  float v1,v2;
+  char operator;
+  
+  printf("enter the expression ");
+  scanf("%f %c %f",&v1,&operator,&v2);
+  
+  switch(operator)
+  {
+      case '+':
+            printf("%.2f\n",v1 + v2);
+            break;
+            
+      case '-':
+            printf("%.2f\n",v1 - v2);
+            break;
+            
+      case '*':
+            printf("%.2f\n",v1 * v2);
+            break;
+            
+      default:
+            printf("unknown operator");
+            break;
+      
+  }
+   
+   return 0;
+}
+
+
+   
+
+
+  
