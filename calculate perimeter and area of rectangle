@@ -1,0 +1,23 @@
+/*
+Author : Bharathi H
+Purpose :calculate perimeter and area of rectangle
+*/
+
+#include<stdio.h>
+int main ( )
+{
+  //declaring variables
+  double width = 20.5;
+  double height = 10.3;
+  double perimeter = 0.0;
+  double area = 0.0;
+  
+  //performing operations
+  perimeter = 2.0 * (height + width);
+  area = height * width;
+  
+  printf("Perimeter is %lf\nWidth is %lf\nHeight is %lf\n",width,height,perimeter);
+  printf("Area is %lf\n",area);
+  
+  return 0;
+}
