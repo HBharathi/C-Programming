@@ -1,0 +1,32 @@
+/*
+Author : Bharathi H
+Purpose :example for format specifiers
+*/
+
+#include<stdio.h>
+int main()
+{
+  int i = 100;
+  float j = 23.45;
+  double k = 234.777777777;
+  char c = 'B';
+  _Bool b = 0;
+  char str[20] = "Bharathi";
+  
+  printf("value of i = %i\n",i);  //format specifiers for int 
+  printf("value of i = %d\n",i);
+  
+  printf("value of j = %f\n",j);  //format specifiers for float
+  
+  printf("value of k = %lf\n",k);  //format specifiers for double
+  printf("value of k = %e\n",k);
+  printf("value of k = %g\n",k);
+  
+  printf("value of c = %c\n",c);  //format specifiers for char
+  
+  printf("value of str = %s\n",str); //format specifiers for string
+  
+  printf("value of b = %i\n",b);  //format specifiers for boolean
+  printf("value of b = %d\n",b);
+    return 0;
+}
