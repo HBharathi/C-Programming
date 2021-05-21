@@ -1,0 +1,18 @@
+/*
+Author : Bharathi H
+Purpose :example for command line arguments
+*/
+
+#include<stdio.h>
+int main (int argc, char *argv[])
+{
+
+  int number_of_arg = argc;
+  char *arg1 = argv[0];  
+  char *arg2 = argv[1];
+
+  printf ("the number_of_arg is :%d\n", number_of_arg);  //displays a number of arguments passed
+  printf ("the arg1 is :%s\n", arg1);  //displays a filename
+  printf ("the arg2 is :%s\n", arg2); //displays a input name
+  return 0;
+}
