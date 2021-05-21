@@ -1,0 +1,25 @@
+/*
+Author : Bharathi H
+Purpose :Example for type conversion by casting
+*/
+
+#include<stdio.h>
+int main ( )
+{
+  float a = 60.78889; 
+  int b = 13; 
+  float d = 43.67;
+  int c = 0;
+  
+  
+  c = (int)a + b;  //explicit type conversion
+  printf("add value =%d\n",c);
+  
+  c = d / b;
+  printf("div value =%d\n",c);
+         
+  printf("value of %zd",sizeof(c)); //sizeof operator
+  
+   
+  return 0;
+}
