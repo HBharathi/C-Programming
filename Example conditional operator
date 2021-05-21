@@ -1,0 +1,20 @@
+/*
+Author : Bharathi H
+Purpose : Example conditional operator
+*/
+
+
+#include <stdio.h>
+
+int main()
+{
+   int x,y;
+   
+   x = y < 7 ? 25:50; /*ternary statement  which is if(y < 7) then x =25 else x = 50*/
+   printf("x=%d",x);
+   
+  
+   return 0;
+
+   
+}
