@@ -1,0 +1,33 @@
+/*
+Author : Bharathi H
+Purpose :Example for switch statement
+*/
+
+
+#include <stdio.h>
+
+int main()
+{
+   
+   enum weekdays {Monday,Tuesday,Wednesday,Thursday,Friday};
+   enum weekdays day = Friday;
+   
+   switch(day)
+   {
+       case Monday:
+            printf("Today is Monday");
+            break;
+       
+       case Tuesday:
+            printf("Today is Tuesday");
+            break;
+       
+       default:
+            printf("Not matching");
+            break;
+   }
+   
+   return 0;
+
+   
+}
