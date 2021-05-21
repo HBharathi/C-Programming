@@ -1,0 +1,19 @@
+/*
+Author : Bharathi H
+Purpose :example for variables and datatypes
+*/
+
+#include<stdio.h>
+int main()
+{
+    int i;
+    float k;
+    double d;
+    
+    
+    scanf("%d%f%lf",&i,&k,&d);  
+    printf("values are: %d::%f::%lf",i,k,d);
+    return 0;
+}
+
+
