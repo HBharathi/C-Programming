@@ -1,0 +1,32 @@
+/*
+Author : Bharathi H
+Purpose :Example for arithmetic operators
+*/
+
+#include<stdio.h>
+int main ( )
+{
+  int a = 33;
+  int b = 15;
+  int c = 0;
+  
+  c = a + b;    									//add
+  printf("c is %d\n",c);
+  c = a - b;    									//sub
+  printf("c is %d\n",c);
+  c = a * b;   									//mul
+  printf("c is %d\n",c);
+  c = a / b;   									//div
+  printf("c is %d\n",c);
+  c = a % b;  									//mod
+  printf("c is %d\n",c);
+  
+  //printf("a is %d\n",++a);     //pre increment by 1
+  //printf("a is %d\n",a++);    //post increment by 1
+  //printf("a is %d\n",a);
+  //printf("a is %d\n",--a);    //pre decrement by 1
+  printf("a is %d\n",a--);       //post decrement by 1
+  printf("a is %d\n",a);
+   
+  return 0;
+}
