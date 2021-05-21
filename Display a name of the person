@@ -1,0 +1,14 @@
+/*
+Author : Bharathi H
+Purpose :To Display a name of the person
+*/
+
+#include<stdio.h>
+
+int main()
+
+{
+    //Displays a name
+	printf("My name is Bharathi H!!");
+	return 0;
+}
