@@ -1,0 +1,24 @@
+/*
+Author : Bharathi H
+Purpose :Example for logical operators
+*/
+
+#include<stdio.h>
+int main ( )
+{
+  _Bool a = 1;  //1 is true and 0 is false
+  _Bool b = 0;
+  
+  _Bool c;
+  
+  c = a && b;   //Logical AND
+  printf("c is %d\n",c);
+  
+  c = a || b;   //Logical OR
+  printf("c is %d\n",c);
+  
+  c = !a;      //Logical NOT
+  printf("c is %d\n",c);
+   
+  return 0;
+}
