@@ -1,0 +1,19 @@
+/*
+Author : Bharathi H
+Purpose :example for  datatypes
+*/
+
+#include<stdio.h>
+int main()
+{
+	char mychar = '\n';  // declaring a character
+    enum gender {male,female}; // declaring enum datatype
+    
+    enum gender mygen;
+    
+    mygen = female;
+    
+    printf("%d",mygen);
+    printf("%c",mychar);
+    return 0;
+}
