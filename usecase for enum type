@@ -1,0 +1,19 @@
+/*
+Author : Bharathi H
+Purpose :usecase for enum type
+*/
+
+#include<stdio.h>
+int main ( )
+{
+  enum Company {GOOGLE, FACEBOOK, XEROX, YAHOO = 11, EBAY, MICROSOFT}; //enum list
+  enum Company X = XEROX; 
+  enum Company G = GOOGLE;
+  enum Company E = EBAY;
+  
+  printf("value of XEROX is = %d\n",X);
+  printf("value of GOOGLE is = %d\n",G);
+  printf("value of EBAY is = %d\n",E);
+  
+  return 0;
+}
